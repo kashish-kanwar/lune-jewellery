@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Luné — Handmade Jewellery</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <a href="#" class="logo">Luné</a>
+
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#collection">Collection</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+         <a href="#collection" class="btn btn-outline">Shop Now</a>
+         <button class="menu-toggle" aria-label="Open menu">
+           ☰
+         </button>
+    </header>
+
+
+    <!-- Hero Section -->
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">HANDCRAFTED • TIMELESS • YOU</p>
+
+                <h1>
+                    Jewellery made
+                    <span>to feel like you.</span>
+                </h1>
+
+                <p class="hero-text">
+                    Thoughtfully handcrafted pieces designed
+                    to become part of your everyday moments.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#collection" class="primary-btn">
+                        Explore Collection
+                    </a>
+
+                    <a href="#about" class="text-btn">
+                        Our Story →
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="hero-image">
+                <img 
+                    src="images/hero-jewellery.jpg" 
+                    alt="Luné handmade jewellery collection"
+                >
+
+                <div class="floating-note">
+                    <span>✦</span>
+                    Made with love
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Featured Collection -->
+        <section class="collection" id="collection">
+
+            <div class="section-heading">
+                <p class="eyebrow">THE EDIT</p>
+
+                <h2>Pieces you'll keep reaching for.</h2>
+
+                <p>
+                    Delicate details, timeless silhouettes and
+                    little pieces of everyday magic.
+                </p>
+            </div>
+
+
+            <div class="product-grid">
+
+                <article class="product-card" data-product="moonlit" >
+                    <div class="product-image">
+                        <img src="images/product-1.jpg" alt="necklace">
+                    </div>
+
+                    <h3>Moonlit Necklace</h3>
+                    <p>₹899</p>
+                </article>
+
+
+                <article class="product-card" data-product="sole" >
+                    <div class="product-image">
+                        <img src="images/product-2.jpg" alt="Gold earrings">
+                    </div>
+
+                    <h3>Solé Hoops</h3>
+                    <p>₹649</p>
+                </article>
+
+
+                <article class="product-card" data-product="elan"  >
+                    <div class="product-image">
+                        <img src="images/product-3.jpg" alt="Delicate bracelet">
+                    </div>
+
+                    <h3>Élan Bracelet</h3>
+                    <p>₹749</p>
+                </article>
+
+
+                <article class="product-card" data-product="celeste">
+                    <div class="product-image">
+                        <img src="images/product-4.jpg" alt="Minimal ring">
+                    </div>
+
+                    <h3>Celeste Ring</h3>
+                    <p>₹599</p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- About Section -->
+        <section class="about" id="about">
+
+            <div class="about-image">
+                <img src="images/about.jpg" alt="Handcrafted jewellery">
+            </div>
+
+            <div class="about-content">
+               <span class="section-label">OUR STORY</span>
+
+            <h2>Made slowly.<br>Made meaningfully.</h2>
+
+             <p>
+               Luné was created for the little moments that deserve to feel special.
+                Each piece is thoughtfully chosen to bring a quiet touch of elegance
+               to your everyday life.
+             </p>
+
+              <p>
+                From delicate layers to timeless little treasures, our jewellery is
+                 made to be worn, loved, and remembered.
+            </p>
+
+           <a href="#collection" class="text-link">Discover the collection →</a>
+           </div>
+
+        </section>
+
+
+        <!-- Contact / CTA -->
+        <section class="contact" id="contact">
+
+            <div class="contact-inner">
+    <span class="section-label">LET'S CONNECT</span>
+
+    <h2>Find your next<br>little treasure.</h2>
+
+    <p>
+        Have a question about a piece, want to place an order,
+        or simply want to say hello? We'd love to hear from you.
+    </p>
+
+    <div class="contact-buttons">
+       <a href="https://wa.me/919999999999?text=Hi%20Lun%C3%A9!%20I'd%20love%20to%20know%20more%20about%20your%20jewellery." 
+   class="btn btn-dark" 
+   target="_blank">
+    Order on WhatsApp
+</a>
+
+<a href="https://instagram.com/" 
+   class="btn btn-outline" 
+   target="_blank">
+    Follow on Instagram
+</a>
+    </div>
+</div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div>
+            <a href="#" class="logo">Luné</a>
+            <p>Handmade jewellery for everyday moments.</p>
+        </div>
+
+       
+
+        <p class="copyright">
+            © 2026 Luné. All rights reserved.
+        </p>
+
+    </footer>
+
+    <div class="product-modal" id="productModal">
+    <div class="modal-box">
+        <button class="modal-close" aria-label="Close">&times;</button>
+
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="Jewellery">
+
+            <div class="modal-details">
+                <span class="section-label">LUNÉ JEWELLERY</span>
+                <h2 id="modalTitle"></h2>
+                <p class="modal-price" id="modalPrice"></p>
+                <p id="modalDescription"></p>
+
+                <a
+                    href="https://wa.me/919999999999"
+                    target="_blank"
+                    class="btn btn-dark"
+                >
+                    Order on WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
